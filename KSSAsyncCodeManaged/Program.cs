@@ -11,6 +11,7 @@ namespace KSSAsyncCodeManaged
         static void Main(string[] args)
         {
             IAsyncResultDemo.IAsyncResultDemoMain();
+            TaskCPUBoundWork.TaskCPUBoundWorkMain();
         }
     }
 }
