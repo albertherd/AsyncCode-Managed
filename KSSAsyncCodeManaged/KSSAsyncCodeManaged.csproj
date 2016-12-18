@@ -47,6 +47,9 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TaskCPUBoundWork.cs" />
+    <Compile Include="TaskIOBoundWork.cs" />
+    <Compile Include="TaskIOBoundWorkNoAsync.cs" />
+    <Compile Include="ThreadPoolWorkerIoCount.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

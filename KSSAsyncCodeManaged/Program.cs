@@ -11,7 +11,10 @@ namespace KSSAsyncCodeManaged
         static void Main(string[] args)
         {
             IAsyncResultDemo.IAsyncResultDemoMain();
+            ThreadPoolWorkerIoCount.ThreadPoolWorkerIoCountMain();
             TaskCPUBoundWork.TaskCPUBoundWorkMain();
+            TaskIOBoundWork.TaskIoBoundWorkMain();
+            TaskIOBoundWorkNoAsync.TaskIOBoundWorkNoAsyncMain();
         }
     }
 }
